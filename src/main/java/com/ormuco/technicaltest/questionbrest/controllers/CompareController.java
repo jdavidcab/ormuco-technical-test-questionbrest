@@ -45,8 +45,8 @@ public class CompareController {
      * </p>
      * @param request Request fields with first {@code String} to evaluate, Second {@code String} to evaluate,
      * and Locale object represents a specific geographic, cultural, or political region.
-     * @return CompareTwoStringResponse: the value 0 if strNum1 == strNum2; a value -1 if strNum1 < strNum2; 
-     * and a value 1 if strNum1 > strNum2;
+     * @return CompareTwoStringResponse: the value 0 if {@code strNum1 == strNum2;} a value -1 
+     * if {@code strNum1 < strNum2;} and a value 1 if {@code strNum1 > strNum2;}
      * 
      */
     @PostMapping( path="/twoString" )

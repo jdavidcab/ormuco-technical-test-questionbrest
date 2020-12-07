@@ -31,6 +31,10 @@ public class CompareRestPostTest {
     @MockBean
     private ICompareService collinearService;
 
+    
+    /** 
+     * @throws Exception
+     */
     @Test
     void whenValidInput_thenReturns200() throws Exception {
 
@@ -47,6 +51,10 @@ public class CompareRestPostTest {
 
     }
 
+    
+    /** 
+     * @throws Exception
+     */
     @Test
     void whenInvalidInput_thenReturns400() throws Exception {
 

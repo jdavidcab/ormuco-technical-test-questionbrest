@@ -8,6 +8,7 @@ import lombok.Setter;
  * 
  * <p>
  * Request object contain all fields about Locale information.
+ * </p>
  * 
  * <ul>
  *      <li><b>language</b>: An ISO 639 alpha-2 or alpha-3 language code, or a language subtag
@@ -16,7 +17,6 @@ import lombok.Setter;
  *      <li><b>country</b>: An ISO 3166 alpha-2 country code or a UN M.49 numeric-3 area code. 
  *      See the <code>Locale</code> class description about valid country values.</li>
  * </ul>
- * </p>
  * 
  * @author Johann David Cabrera Mora
  * @since 1.0

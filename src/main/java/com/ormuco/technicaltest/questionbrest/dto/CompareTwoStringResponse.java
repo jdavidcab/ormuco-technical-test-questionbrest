@@ -13,13 +13,14 @@ import lombok.AccessLevel;
  * <p>
  * Response object contain all fields to evaluate 2 version string as input and 
  * returns whether one is greater than, equal, or less than the other.
+ * </p>
+ * 
  * This class contain the following fields:
  * <ul>
- *      <li><b>compareInd</b>: the value 0 if strNum1 == strNum2; a value -1 if strNum1 < strNum2; 
- *          and a value 1 if strNum1 > strNum2;</li>
+ *      <li><b>compareInd</b>: the value 0 if {@code strNum1 == strNum2;} a value -1 if 
+ *          {@code strNum1 < strNum2;} and a value 1 if {@code strNum1 > strNum2;}</li>
  *      <li><b>description</b>: {@code String} description of the result.</li>
  * </ul>
- * </p>
  * 
  * @author Johann David Cabrera Mora
  * @since 1.0
