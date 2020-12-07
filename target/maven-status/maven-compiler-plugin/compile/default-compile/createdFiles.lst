@@ -1,0 +1,7 @@
+com/ormuco/technicaltest/questionbrest/services/ICompareService.class
+com/ormuco/technicaltest/questionbrest/dto/CompareTwoStringRequest.class
+com/ormuco/technicaltest/questionbrest/dto/CompareTwoStringResponse.class
+com/ormuco/technicaltest/questionbrest/QuestionbrestApplication.class
+com/ormuco/technicaltest/questionbrest/services/CompareServiceImpl.class
+com/ormuco/technicaltest/questionbrest/dto/LocaleRequest.class
+com/ormuco/technicaltest/questionbrest/controllers/CompareController.class
